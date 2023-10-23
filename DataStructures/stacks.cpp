@@ -48,6 +48,10 @@ bool stack::isempty()
 	return false;
 }
 
+int stack::size()
+{
+	return curr_index + 1;
+}
 
 int main()
 {
