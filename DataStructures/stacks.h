@@ -11,4 +11,5 @@ public:
 	int pop();
 	int top();
 	bool isempty();
+	int size();
 };
